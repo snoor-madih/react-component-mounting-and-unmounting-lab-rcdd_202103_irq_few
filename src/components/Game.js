@@ -25,9 +25,6 @@ class Game extends React.Component {
     this.setState({ time: new Date(Date.now())});
   }
 
-  setCurrentTime = () => {
-    this.setState({ time: new Date(Date.now())});
-  }
 
   addPancake = () => {
     this.setState({
